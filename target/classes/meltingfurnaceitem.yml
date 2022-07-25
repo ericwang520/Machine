@@ -1,0 +1,156 @@
+MeltingFurnace:
+  # Core
+  NormalCore:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 17
+  RareCore:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 18
+  EpicCore:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 19
+
+  # Fuel
+  CoalShards:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 37
+  Coal:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 38
+  NormalBiodiesel:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 39
+  RareBiodiesel:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 40
+  EpicBiodiesel:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 41
+
+
+  # 熔煉物
+
+  RawHematite:
+  name:
+  lore:
+    -
+    -
+    custom-model-data: 21
+
+  RawHematiteShards:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 22
+
+  RawWhitecopper:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 23
+  RawWhitecopperShards:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 24
+  RawSiderite:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 25
+  RawSideriteShards:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 26
+  RawEmvine:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 27
+  RawEmvineShards:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 28
+
+  # 成果物
+  HematiteIngot:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 29
+  HematiteNugget:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 30
+  WhiteCopperIngot:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 31
+  WhiteCopperNuggets:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 32
+  SideriteIngot:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 33
+  SideriteNuggets:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 34
+  EmvineIngot:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 35
+  EmvineNuggets:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 36

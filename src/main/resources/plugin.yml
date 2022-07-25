@@ -1,0 +1,15 @@
+name: Machine
+version: '${project.version}'
+main: me.yiyi1234.machine.Machine
+api-version: 1.18
+authors: [ Yiyi1234 ]
+depend:
+  - ItemsAdder
+
+commands:
+  machine:
+
+
+permissions:
+  machine.commands:
+    default: op
