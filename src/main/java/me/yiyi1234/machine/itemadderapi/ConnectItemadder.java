@@ -9,8 +9,6 @@ import org.bukkit.event.Listener;
 public class ConnectItemadder implements Listener {
     @EventHandler
     public void LoadDataEvent(ItemsAdderLoadDataEvent event) {
-
         Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&7<&6Machine&7> &6成功與 ItemsAdder 串接。"));
-
     }
 }

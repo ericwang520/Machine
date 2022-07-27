@@ -3,6 +3,7 @@ C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\itemadderapi\Blo
 C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\events\JoinEvent.java
 C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\itemadderapi\BlockBreak.java
 C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\core\MineralProcessing\AlloyMeltingFurnace.java
+C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\ui\PlantProcessing\PlantSeparatorUI.java
 C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\Machine.java
 C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\levelsystem\mineralprocessing\MineralLevel.java
 C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\itemadderapi\BlockInteract.java
@@ -11,5 +12,9 @@ C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\commands\Machine
 C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\sql\MySQL.java
 C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\itemadderapi\ConnectItemadder.java
 C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\core\ResearchProcessing\ResearchTable.java
+C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\core\PlantProcessing\PlantSeparator.java
+C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\items\PlantProcessing\PlantSeparatorItem.java
 C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\items\MineralProcessing\MeltingFurnaceItems.java
+C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\manager\PlantProcessing\PlantSeparatorManager.java
+C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\sql\SQLLevels.java
 C:\Users\USER\Desktop\Machine\src\main\java\me\yiyi1234\machine\ui\MineralProcessing\MeltingFurnaceUI.java

@@ -55,10 +55,10 @@ MeltingFurnace:
   # 熔煉物
 
   RawHematite:
-  name:
-  lore:
-    -
-    -
+    name:
+    lore:
+      -
+      -
     custom-model-data: 21
 
   RawHematiteShards:

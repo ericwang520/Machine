@@ -97,7 +97,7 @@ public class MeltingFurnace {
         lore.add(MeltingFurnaceItems.hex(" "));
         lore.add(MeltingFurnaceItems.hex("  &72. 熔煉爐內建防呆機制，若非該欄位的素材，將&c無法放入&7熔煉爐內。"));
         lore.add(MeltingFurnaceItems.hex(" "));
-        lore.add(MeltingFurnaceItems.hex("  &73. 崁入核心能減少熔煉速度及燃料消耗，若您想崁入核心，"));
+        lore.add(MeltingFurnaceItems.hex("  &73. 崁入核心能加快熔煉速度及燃料消耗，若您想崁入核心，"));
         lore.add(MeltingFurnaceItems.hex("  &7   請在熔煉爐非運作時崁入。"));
         lore.add(MeltingFurnaceItems.hex(" "));
         lore.add(MeltingFurnaceItems.hex("  &74. 區域卸載時，熔煉爐仍會持續運作，只需補充熔煉物及燃料。"));
@@ -241,9 +241,7 @@ public class MeltingFurnace {
                     ItemStack air = new ItemStack(Material.AIR);
 
 
-                    if (fuelTime <= 0) {
-                        furnaceUI.setItem(28, air);
-                    }else {
+                    if (fuelTime > 0) {
                         fuelTime--;
                         ItemStack fuelItem = new ItemStack(Material.BOWL);
                         ItemMeta fuelItemMeta = fuelItem.getItemMeta();

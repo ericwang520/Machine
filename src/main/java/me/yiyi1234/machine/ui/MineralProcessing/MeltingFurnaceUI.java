@@ -92,34 +92,52 @@ public class MeltingFurnaceUI implements Listener {
                                         event.setCancelled(true);
                                     }
                                     if (cursorItem.isSimilar(hematite) && !getfurnace.getResult().isSimilar(hematiteIngot)) {
+                                        event.getWhoClicked().sendMessage(ChatColor.translateAlternateColorCodes('&', "&7[&6系統&7] &c請先將熔煉爐內的成品取出後再嘗試一次。"));
                                         event.setCancelled(true);
+                                        return;
                                     }
                                     if (cursorItem.isSimilar(hematiteShards) && !getfurnace.getResult().isSimilar(hematiteNuggets)) {
+                                        event.getWhoClicked().sendMessage(ChatColor.translateAlternateColorCodes('&', "&7[&6系統&7] &c請先將熔煉爐內的成品取出後再嘗試一次。"));
                                         event.setCancelled(true);
+                                        return;
                                     }
                                     if (cursorItem.isSimilar(whiteCopper) && !getfurnace.getResult().isSimilar(whitecopperIngot)) {
+                                        event.getWhoClicked().sendMessage(ChatColor.translateAlternateColorCodes('&', "&7[&6系統&7] &c請先將熔煉爐內的成品取出後再嘗試一次。"));
                                         event.setCancelled(true);
+                                        return;
                                     }
                                     if (cursorItem.isSimilar(whitecopperShards) && !getfurnace.getResult().isSimilar(whitecopperNuggets)) {
+                                        event.getWhoClicked().sendMessage(ChatColor.translateAlternateColorCodes('&', "&7[&6系統&7] &c請先將熔煉爐內的成品取出後再嘗試一次。"));
                                         event.setCancelled(true);
+                                        return;
                                     }
                                     if (cursorItem.isSimilar(siderite) && !getfurnace.getResult().isSimilar(sideriteIngot)) {
+                                        event.getWhoClicked().sendMessage(ChatColor.translateAlternateColorCodes('&', "&7[&6系統&7] &c請先將熔煉爐內的成品取出後再嘗試一次。"));
                                         event.setCancelled(true);
+                                        return;
                                     }
                                     if (cursorItem.isSimilar(sideriteShards) && !getfurnace.getResult().isSimilar(sideriteNuggets)) {
+                                        event.getWhoClicked().sendMessage(ChatColor.translateAlternateColorCodes('&', "&7[&6系統&7] &c請先將熔煉爐內的成品取出後再嘗試一次。"));
                                         event.setCancelled(true);
+                                        return;
                                     }
                                     if (cursorItem.isSimilar(emvine) && !getfurnace.getResult().isSimilar(emvineIngot)) {
+                                        event.getWhoClicked().sendMessage(ChatColor.translateAlternateColorCodes('&', "&7[&6系統&7] &c請先將熔煉爐內的成品取出後再嘗試一次。"));
                                         event.setCancelled(true);
+                                        return;
                                     }
                                     if (cursorItem.isSimilar(emvineShards) && !getfurnace.getResult().isSimilar(emvineNuggets)) {
+                                        event.getWhoClicked().sendMessage(ChatColor.translateAlternateColorCodes('&', "&7[&6系統&7] &c請先將熔煉爐內的成品取出後再嘗試一次。"));
                                         event.setCancelled(true);
+                                        return;
                                     }
                                 }
 
 
                             } else {
+                                event.getWhoClicked().sendMessage(ChatColor.translateAlternateColorCodes('&', "&7[&6系統&7] &c這個東西無法熔煉。"));
                                 event.setCancelled(true);
+                                return;
                             }
                         }
                     }
@@ -148,11 +166,7 @@ public class MeltingFurnaceUI implements Listener {
                     // core
                     if (event.getSlot() == 13) {
                         if (getfurnace.getState() == MeltingFurnace.State.RUNNING) {
-
-
-
                             event.getWhoClicked().sendMessage(ChatColor.translateAlternateColorCodes('&', "&7[&6系統&7] &c請先停止熔煉爐運作在崁入或拔除核心。"));
-
                             event.setCancelled(true);
                             return;
                         }
@@ -199,9 +213,7 @@ public class MeltingFurnaceUI implements Listener {
 
                     // result
                     if (event.getSlot() == 31) {
-                        if (event.getAction().equals(InventoryAction.PICKUP_ALL)) {
-
-                        } else {
+                        if (!event.getAction().equals(InventoryAction.PICKUP_ALL)) {
                             event.setCancelled(true);
                         }
                     }
@@ -218,10 +230,6 @@ public class MeltingFurnaceUI implements Listener {
     }
 
 
-    @EventHandler
-    public void closeEvent(InventoryCloseEvent event) {
-
-    }
 
     @EventHandler
     public void dragEvent(InventoryDragEvent event) {

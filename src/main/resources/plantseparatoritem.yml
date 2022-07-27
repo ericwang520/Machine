@@ -1,0 +1,87 @@
+# plant
+PlantSeparator:
+  damagedWheatGrass:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+  wheatGrass:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+  damagedGoldBerries:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+  goldBerries:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+  damagedSilverBerries:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+  silverBerries:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+
+  #result
+  damagedFiber:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+  fiber:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+  # Juice
+  goldBerryJuice:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+  silverBerryJuice:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+  # Core
+  normalTurnCore:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+  rareTurnCore:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+  epicTurnCore:
+    name:
+    lore:
+      -
+      -
+    custom-model-data: 1
+
+
+
